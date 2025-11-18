@@ -3,18 +3,16 @@
 *::after {
   box-sizing: border-box;
 }
-
 html {
   block-size: 100%;
+  margin: 0 auto;
 }
-
 .page {
   display: flex;
   align-items: center;
   justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -29,14 +27,16 @@ html {
   width: 1140px;
   min-height: 534px;
   gap: 30px;
+  margin: 0 auto;
 }
 .result {
-  margin-top: 211px;
+  margin-top: 0;
 }
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 402px;
+  height: 386px;
+  margin-bottom: 16px;
 }
 .result__video-container video {
   width: 100%;
@@ -174,7 +174,7 @@ html {
   align-self: flex-end;
 }
 .content__accent {
-  color:rgba(84, 80, 80, 1);
+  color: rgba(84, 80, 80, 1);
 }
 
 h1,
